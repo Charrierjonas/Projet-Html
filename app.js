@@ -2,7 +2,8 @@ const http = require('http');
 const port=8080
 
 const httpServer = http.createServer(function(req,res){
-
+    res.write('hello jonas')
+    res.end()
 })
 
 // On écoute sur le port 8080

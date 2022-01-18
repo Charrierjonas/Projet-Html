@@ -21,6 +21,28 @@ textarea {
 {
     width: 250px;
     height: 200px;
-    
 }
 
+.Chat
+{
+    background-color: blueviolet;
+    height:100%;
+    width:max-content;
+}
+
+#Global
+{
+    width:100%;
+    height: 100%;
+}
+
+#Global #gauche {
+    float:left;
+    width:80%;
+    height: 100%;
+    border-radius: 0;
+}
+#Global #droite {
+    margin-left:80%;
+    height: 100%;  
+}
